@@ -15,8 +15,7 @@ const UrlForm = () => {
 
     const handleSubmit =async ()=>{
         try{
-        const shortUrl = await createShort
-        ++Url(url,customSlug)
+        const shortUrl = await createShortUrl(url,customSlug)
         setShortUrl(shortUrl)
         queryClient.invalidateQueries({queryKey: ['userUrls']})
         setError(null)
