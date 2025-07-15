@@ -15,7 +15,8 @@ const router = createRouter({
   context:{
     queryClient,
     store
-  }
+  },
+   basepath: '/',
  })
 
 createRoot(document.getElementById('root')).render(
@@ -24,4 +25,5 @@ createRoot(document.getElementById('root')).render(
        <RouterProvider router={router} />
     </QueryClientProvider>
   </Provider>
+
 )
