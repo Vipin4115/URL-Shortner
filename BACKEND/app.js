@@ -15,7 +15,7 @@ const app = express();
 connectDB();
 
 app.use(cors({
-  origin: "https://url-short-l915dcnu0-vipin4115s-projects.vercel.app",
+  origin: "https://url-eta-self.vercel.app/",
   credentials: true
 }));
 
