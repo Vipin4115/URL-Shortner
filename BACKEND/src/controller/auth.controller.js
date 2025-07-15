@@ -1,4 +1,4 @@
-import wrapAsync from "../utils/TryCatchWrapper.js";
+import wrapAsync from "../utils/tryCatchWrapper.js";
 import { registerUser,loginUser } from "../services/auth.services.js";
 import {cookieOptions} from "../config/config.js"
 
